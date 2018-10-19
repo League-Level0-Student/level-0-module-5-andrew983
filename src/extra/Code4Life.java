@@ -6,23 +6,43 @@ package extra;
  */
 
 import java.applet.AudioClip;
-import java.io.File;
-import javax.sound.sampled.AudioInputStream;
-import javax.sound.sampled.AudioSystem;
-import javax.sound.sampled.Clip;
+
 import javax.swing.JApplet;
+import javax.swing.JOptionPane;
 
 public class Code4Life {
 
-	// 1. Ask the user how many hours they spent coding this week.
+	public static void main(String[] args) {
 
-	// 2. If it is less than or equal to 2, tell them to stop watching YouTube and
-	// write code instead.
+		// 1. Ask the user how many hours they spent coding this week.
+		String tiem = JOptionPane.showInputDialog(
+				"How many hours have you coded this week? (please put in a number) |˙ø∑ µå˜¥ ˙ø¨®ß ˙å√´ ¥ø¨ çø∂´∂ †˙ˆß¿ (π¬´åß π¨† ˆ˜ å ˜¨Âı‰ˇ)");
+		// 2. If it is less than or equal to 2, tell them to stop watching YouTube and
+		// write code instead.
 
-	// 3. If it is greater than or equal to 3 AND less than or equal to 5, tell them
-	// they're a Code Ninja
+		int ovo = Integer.parseInt(tiem);
+		if (ovo < 2) {
 
-	// 4. If it is more than 5, call the method below to play the Batman theme song.
+			JOptionPane.showMessageDialog(null, "stop watching Youtube in class rn(its down )");
+
+		}
+		// 3. If it is greater than or equal to 3 AND less than or equal to 5, tell them
+		// they're a Code Ninja
+		else if (ovo >= 3 && ovo >= 5) {
+
+			JOptionPane.showMessageDialog(null, "u a çø∂´ ˜ˆ˜∆ß!");
+
+		}
+		// 4. If it is more than 5, call the method below to play the Batman theme
+		// song.el
+
+		else if (ovo > 5) {
+
+			JOptionPane.showMessageDialog(null, "nice job, ©ø ø¨†ßˆ∂´ ˝Ø Ø¨ˇÍˆÎ");
+			playBatmanTheme();
+		}
+
+	}
 
 	private static void playBatmanTheme() {
 		try {
