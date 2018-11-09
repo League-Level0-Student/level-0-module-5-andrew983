@@ -13,12 +13,20 @@ public class EvilPolygonsChallenge {
 Robot dos = new Robot();
 		//2. Set the spedos.set\\ed to 100
 dos.setSpeed(100);
-		int colorChoice=JOptionPane.showOptionDialog(null, "hey michael vsauce here", "despacito", JOptionPane.INFORMATION_MESSAGE, JOptionPane.DEFAULT_OPTION, null, new String[]{"broun","grean", "rhead"}, 0);
+		int colorChoice=JOptionPane.showOptionDialog(null, "what color?", "despacito", JOptionPane.INFORMATION_MESSAGE, JOptionPane.DEFAULT_OPTION, null, new String[]{"broun","grean", "rhead"}, 0);
 		
 		//3. Use if statements to check the the value of colorChoice and set the pen color accordingly 
-		if(){
+		if (colorChoice == 0) {
+			dos.penDown();
+dos.setPenColor(139,69,19);		}
+		if (colorChoice == 1) {
+			dos.penDown();
+dos.setPenColor(0,128,0);		}
+		if (colorChoice == 2) {
+			dos.penDown();
+dos.setPenColor(255,0,0);		}
 		}	//4. Ask the use how many polygons they want to be drawn.
-		String despa == 
+		String ree = JOptionPane.showInputDialog("how many shapes do you want drtawn mate?");
 		//5. Use the robot to draw the number of polygons the user requested.
 		
 		//6. Make it so your shapes do not overlap

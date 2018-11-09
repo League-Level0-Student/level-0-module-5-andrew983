@@ -1,4 +1,4 @@
-package algorithms;
+																																																																																																																											package algorithms;
 /*
  *    Copyright (c) The League of Amazing Programmers 2013-2017
  *    Level 0
@@ -22,7 +22,8 @@ public class GoofyNames {
 			// 4. Create a String variable to store the next character of the name
 			// using .substring(start, end)
 			// HINT: replace 'start' and 'end' to get String with character at i
-			System.out.println(tee.substring(i, i + 1));
+			
+		String letter = tee.substring(i, i + 1);
 			// 5. Use MODULO to set this variable to upper case for EVEN characters
 			// and lower case for ODD characters.
 			if (i % 2 == 0) {
