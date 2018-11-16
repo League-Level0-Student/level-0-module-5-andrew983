@@ -27,11 +27,11 @@ public class GoofyNames {
 			// 5. Use MODULO to set this variable to upper case for EVEN characters
 			// and lower case for ODD characters.
 			if (i % 2 == 0) {
-
+tee.toUpperCase();
 			}
 			;
 			// 6. ADD this String (containing 1 char) to the goofyName String
-
+goofyName += tee;
 			// 7. Use pop-up to show user their Goofy name
 
 		}

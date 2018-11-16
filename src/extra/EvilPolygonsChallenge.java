@@ -9,6 +9,9 @@ public class EvilPolygonsChallenge {
 	
 	public static void main(String[] args) {
 		
+		
+		
+		
 		//1. Create a new Robot
 Robot dos = new Robot();
 		//2. Set the spedos.set\\ed to 100
@@ -25,12 +28,26 @@ dos.setPenColor(0,128,0);		}
 		if (colorChoice == 2) {
 			dos.penDown();
 dos.setPenColor(255,0,0);		}
-		}	//4. Ask the use how many polygons they want to be drawn.
+			//4. Ask the use how many polygons they want to be drawn.
 		String ree = JOptionPane.showInputDialog("how many shapes do you want drtawn mate?");
+		
+		int reee = Integer.parseInt(ree);
 		//5. Use the robot to draw the number of polygons the user requested.
+		for (reee = 0; reee < 0; reee++);{
+		
+			dos.move(90);
+			dos.turn(90);
+			dos.move(90);
+			dos.turn(90);
+			dos.move(90);
+			dos.turn(90);
+			dos.move(90);
+			dos.turn(90);
+			
+			dos.move (300);
 		
 		//6. Make it so your shapes do not overlap
-
+		}
 		//7. Challenge: add more colors to the Option Dialog.
 	}
 }
