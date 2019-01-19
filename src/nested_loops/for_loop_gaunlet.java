@@ -20,28 +20,39 @@ public class for_loop_gaunlet {
 		 * 
 		 * 
 		 */
-	
-		
-		for (int i = 0; i < 3; i++) {
-
-			
-
-			for (int h = 0; h < 0; h++) {
-				
-
-				for (int L = 0; L < 0; L++) {
-		
-		
-					System.out.println(i+ " "+h+ " "+L);
-		
-		
-		
-		
-		
+	    
+	/*	System.out.println("Number 2");
+		for (int i = 0; i <=2; i++) {
+			for (int j = 0; j <=2; j++) {
+					System.out.print((3*i+j+1)+" ");
 			}
+			System.out.println("");
+		}
+		*/
+		/*#3
+		for (int i = 0; i <=9; i++) {
+			for (int j = 0; j <=9; j++) {
+					System.out.print((10*i+j+1)+" ");
 			}
+			System.out.println("");
+		}
+		*/
+		//#4
+		/*for (int i = 0; i <= 5; i++) {
+			for (int j = 1; j <= i+1; j++) {
+					System.out.print("*"+" ");
+			}
+			System.out.println("");
+		}
+		*/
+		
+		
+		
+		
 		
 // don't touch these!!!
-}
-	}}
+			}
+		
+	}
+
 // don't touch these!!!

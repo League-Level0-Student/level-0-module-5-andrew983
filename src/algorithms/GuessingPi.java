@@ -14,11 +14,11 @@ public class GuessingPi {
 	
 	// 2. Make a String variable to hold the value of Pi.
 	// Get the first few digits from http://www.piday.org/million/.
-String pimaths = "3.14159";
+String pimath = "3.14159";
 	// 3. Print out the first 3 digits of Pi to the console.
 	// The first value is "pi.charAt(0)", the second is "pi.charAt(1)", etc.
 	// Run your program to see how this works.
-System.out.println(pimaths.charAt(0));
+System.out.println(pimath.charAt(0));
 	// 9. If you want to give the user more than one chance to guess,
 	// put a for loop around steps 4-8.
 
@@ -27,12 +27,12 @@ System.out.println(pimaths.charAt(0));
 	// yourStringVariable.length()
 for (int i = 0; i < 6; i++) {
 	
-}
+
 	// 5. Ask the user for the NEXT digit of pi.
 String nxtdgt = JOptionPane.showInputDialog("what is the next digit of pi?");
 	
 
-int piemaths = Integer.parseInt(pimaths);
+int piemaths = Integer.parseInt(pimath);
 int nextdigit = Integer.parseInt(nxtdgt);
 
 
@@ -41,13 +41,16 @@ int nextdigit = Integer.parseInt(nxtdgt);
 	// HINT: use charAt(0) to get 1st char of user input String
 if(piemaths <= nextdigit) {
 	
-	
-	
-	
+	System.out.println("Correct!");
 }
-	// 7. If they are correct, print out "correct".
+	
+else{
+System.out.println("Incorrect!");
+}
+}
+}
+}
+// 7. If they are correct, print out "correct".
 
 	// 8. If they are not, print out "incorrect" and tell them
 	// to start over. Use 'break;' to break out of the loop.
-}
-}
