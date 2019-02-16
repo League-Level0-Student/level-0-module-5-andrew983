@@ -15,8 +15,7 @@ public class Code4Life {
 	public static void main(String[] args) {
 
 		// 1. Ask the user how many hours they spent coding this week.
-		String tiem = JOptionPane.showInputDialog(
-				"How many hours have you coded this week? (please put in a number) |˙ø∑ µå˜¥ ˙ø¨®ß ˙å√´ ¥ø¨ çø∂´∂ †˙ˆß¿ (π¬´åß π¨† ˆ˜ å ˜¨Âı‰ˇ)");
+		String tiem = JOptionPane.showInputDialog("How many hours have you coded this week? (please put in a number) ");
 		// 2. If it is less than or equal to 2, tell them to stop watching YouTube and
 		// write code instead.
 
@@ -30,7 +29,7 @@ public class Code4Life {
 		// they're a Code Ninja
 		else if (ovo >= 3 && ovo >= 5) {
 
-			JOptionPane.showMessageDialog(null, "u a çø∂´ ˜ˆ˜∆ß!");
+			JOptionPane.showMessageDialog(null, "you a code ninja!one1" + "");
 
 		}
 		// 4. If it is more than 5, call the method below to play the Batman theme
